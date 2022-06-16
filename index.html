@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elements creation and manipulation with JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="selection">
+        <div class="search ">
+            <input type="text" placeholder="Miestas" id="city">
+            <input type="button" value="Ieškoti" id="search">
+        </div>
+    
+        <div>
+            <label>Pasirinkite kalbą:</label>
+            <select id="language">
+                <option value="f"></option>
+                <option value="LT">Lietuvių</option>
+                <option value="EN">English</option>
+                <option value="IT">Italiano</option>
+            </select>
+        </div>    
+    </div>
+    
+
+    
+    <div id="weatherBlock">
+        <div id="date"></div>
+        
+        <div id="block">
+            <img id=whaeterIcon src="" alt="">
+            <div id="weather">
+                <div id="temperature"></div>
+                <div id="weatherDescription"></div>
+            </div>
+            
+            <div id="weatherConditions">
+                <div id="feelTemp"></div>
+                <div id="wind"></div>
+                <div id="tempMinMax"></div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- <div class="forecast">
+        <div class="singleDay">
+            <div class="forecastDate">05.05</div>
+            <div class="symbol">symbol</div>
+            <div class="temp">10 laipsniu</div>
+            <div class="description">sauleta</div>
+        </div>
+    </div>
+     -->
+
+    <script src="resources/scripts.js"></script>
+</body>
+</html>
